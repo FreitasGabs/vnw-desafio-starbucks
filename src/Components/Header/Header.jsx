@@ -1,20 +1,20 @@
-import { Link } from "react-router-dom";
-import styled from "styled-components";
+import logo from "../../assets/logo_sb.svg"
+import { HeaderStyle, UlStyle, LinkStyle } from "./style";
 
-const StyledHeader = styled.header`
-background-color: white;
-`
 
 export default function Header() {
     return(
-        <StyledHeader>
+        <HeaderStyle>
 
+            <img src={logo} alt="Logotipo da empresa Starbucks" />
 
             <nav>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/novidades">Novidades</Link></li>
-                <li><Link to="/sobre">Sobre</Link></li>
+                <UlStyle>
+                <li><LinkStyle to="/">Home</LinkStyle></li>
+                <li><LinkStyle to="/novidades">Novidades</LinkStyle></li>
+                <li><LinkStyle to="/sobre">Sobre</LinkStyle></li>
+                </UlStyle>
             </nav>
-        </StyledHeader>
+        </HeaderStyle>
     )
 }
