@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; //mantendo aqui apesar de funcionar sem, já que o Link tá no estilo
 import logo from "../../assets/logo_sb.svg"
 import { HeaderStyle, UlStyle, LinkStyle } from "./style";
 
