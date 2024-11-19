@@ -1,8 +1,10 @@
+import { MainStyle } from "./style"
+
 export default function Home() {
     return (
-        <main>
+        <MainStyle>
             <h1>Home</h1>
             
-        </main>
+        </MainStyle>
     )
 }
