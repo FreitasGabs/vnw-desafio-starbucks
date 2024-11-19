@@ -22,6 +22,6 @@ export const TextoSB = styled.span`
     font-weight: 700;
 `;
 
-export const P = styled.p`
+export const StyleP = styled.p`
     width: 35vw;
 `;
