@@ -1,4 +1,4 @@
-import { MainStyle, H2Style, H1Style, TextoSB, StyleP, StyledButton } from "./style"
+import { MainStyle, H2Style, H1Style, TextoSB, StyleP, StyledButton, StyledCopinhos } from "./style"
 import copinhoAmarelo from "../../assets/cafe_amarelo.svg"
 import copinhoLaranja from "../../assets/cafe_laranja.svg"
 import copinhoVermelho from "../../assets/cafe_vermelho.svg"
@@ -26,26 +26,35 @@ export default function Home() {
 
 
     return (
-        <MainStyle>
-            <section>
-                <H2Style>Mais que Café</H2Style>
-                <H1Style>Isso é <TextoSB>Starbucks</TextoSB></H1Style>
+      <MainStyle>
+        <section>
+          <section>
+            <H2Style>Mais que Café</H2Style>
+            <H1Style>
+              Isso é <TextoSB>Starbucks</TextoSB>
+            </H1Style>
 
-                <StyleP>A Starbucks oferece uma variedade de cafés de alta qualidade. Alguns dos cafés mais populares incluem o Caffè Americano, o Cappuccino, o Latte Macchiato e o Espresso. Além disso, a Starbucks oferece bebidas quentes e frias, doces diferenciados e sanduíches.</StyleP>
+            <StyleP>
+              A Starbucks oferece uma variedade de cafés de alta qualidade.
+              Alguns dos cafés mais populares incluem o Caffè Americano, o
+              Cappuccino, o Latte Macchiato e o Espresso. Além disso, a
+              Starbucks oferece bebidas quentes e frias, doces diferenciados e
+              sanduíches.
+            </StyleP>
 
-                <StyledButton>Saiba Mais</StyledButton>
+            <StyledButton>Saiba Mais</StyledButton>
+          </section>
 
-                <section>
-                    <img src={copinhoLaranja} onClick={trocaLaranja} alt="" />
-                    <img src={copinhoAmarelo} onClick={trocaAmarelo} alt="" />
-                    <img src={copinhoVermelho} onClick={trocaVermelho} alt="" />
-                </section>
-            </section>
+          <StyledCopinhos>
+            <img src={copinhoLaranja} onClick={trocaLaranja} alt="" />
+            <img src={copinhoAmarelo} onClick={trocaAmarelo} alt="" />
+            <img src={copinhoVermelho} onClick={trocaVermelho} alt="" />
+          </StyledCopinhos>
+        </section>
 
-            <section>
-                <img src={copo} alt="" />
-            </section>
-            
-        </MainStyle>
-    )
+        <section>
+          <img src={copo} alt="" />
+        </section>
+      </MainStyle>
+    );
 }
