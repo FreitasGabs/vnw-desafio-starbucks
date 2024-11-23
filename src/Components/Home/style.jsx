@@ -41,7 +41,15 @@ export const StyledButton = styled.button`
     margin: 2.5em;
 `
 
-export const StyledCopinhos = styled.figure`
-    justify-self: center;
-    align-self: center;
+export const StyledSelect = styled.figure`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
+
+export const StyledCopinhos = styled.img`
+    transition: transform 0.5s ease;
+        &:hover{
+            transform: rotate(20deg);
+        }
 `
