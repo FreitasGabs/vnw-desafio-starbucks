@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const MainStyle = styled.main`
     font-family: "Poppins";
     padding: 0 3em;
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,4 +39,9 @@ export const StyledButton = styled.button`
     border-radius: 40%;
     padding: 0.5em 0.75em;
     margin: 2.5em;
+`
+
+export const StyledCopinhos = styled.figure`
+    justify-self: center;
+    align-self: center;
 `
