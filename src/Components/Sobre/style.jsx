@@ -3,10 +3,17 @@ import styled from "styled-components";
 export const StyledSobre = styled.section`
     font-family: "Poppins";
 
+    height: 85vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 `
 
 export const TextoSobre = styled.div`
-    width: 70vw;
+    width: 25vw;
 `
 
 export const StyledH2 = styled.h2`
@@ -15,5 +22,5 @@ export const StyledH2 = styled.h2`
 `;
 
 export const StyleP = styled.p`
-    width: 35vw;
+    width: 27vw;
 `;
