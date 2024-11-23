@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const MainStyle = styled.main`
     font-family: "Poppins";
     padding: 0 3em;
+    display: flex;
+    justify-content: space-between;
 `;
 
 export const H2Style = styled.h2`
@@ -25,3 +27,13 @@ export const TextoSB = styled.span`
 export const StyleP = styled.p`
     width: 35vw;
 `;
+
+export const StyledButton = styled.button`
+    background-color: #037143;
+    color: white;
+    font-family: "Poppins";
+    border: none;
+    border-radius: 40%;
+    padding: 0.5em 0.75em;
+    margin: 2.5em;
+`
