@@ -3,9 +3,11 @@ import styled from "styled-components";
 export const MainStyle = styled.main`
     font-family: "Poppins";
     padding: 0 3em;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 85vh;
 `;
 
 export const H2Style = styled.h2`
