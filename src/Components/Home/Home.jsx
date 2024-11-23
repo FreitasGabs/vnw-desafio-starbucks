@@ -1,4 +1,4 @@
-import { MainStyle, H2Style, H1Style, TextoSB, StyleP, StyledButton, StyledCopinhos } from "./style"
+import { MainStyle, H2Style, H1Style, TextoSB, StyleP, StyledButton, StyledCopinhos, StyledSelect } from "./style"
 import copinhoAmarelo from "../../assets/cafe_amarelo.svg"
 import copinhoLaranja from "../../assets/cafe_laranja.svg"
 import copinhoVermelho from "../../assets/cafe_vermelho.svg"
@@ -45,11 +45,11 @@ export default function Home() {
             <StyledButton>Saiba Mais</StyledButton>
           </section>
 
-          <StyledCopinhos>
-            <img src={copinhoLaranja} onClick={trocaLaranja} alt="" />
-            <img src={copinhoAmarelo} onClick={trocaAmarelo} alt="" />
-            <img src={copinhoVermelho} onClick={trocaVermelho} alt="" />
-          </StyledCopinhos>
+          <StyledSelect>
+            <StyledCopinhos src={copinhoLaranja} onClick={trocaLaranja} alt="" />
+            <StyledCopinhos src={copinhoAmarelo} onClick={trocaAmarelo} alt="" />
+            <StyledCopinhos src={copinhoVermelho} onClick={trocaVermelho} alt="" />
+          </StyledSelect>
         </section>
 
         <section>
