@@ -4,6 +4,7 @@ export const StyledNovidades = styled.section`
     background-color: #1E3932;
     color: white;
     font-family: "Poppins";
+    height: 85vh;
 `
 
 export const TextoSobre = styled.div`
