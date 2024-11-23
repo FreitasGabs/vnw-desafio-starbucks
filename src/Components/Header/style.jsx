@@ -7,6 +7,7 @@ export const HeaderStyle = styled.header`
     align-items: center;
     background-color: white;
     padding: 1.5em;
+    height: 15vh;
 `
 
 export const UlStyle = styled.ul`
