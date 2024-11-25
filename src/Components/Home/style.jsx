@@ -28,7 +28,7 @@ export const TextoSB = styled.span`
 `;
 
 export const StyleP = styled.p`
-    width: 35vw;
+    width: 30vw;
 `;
 
 export const StyledButton = styled.button`
