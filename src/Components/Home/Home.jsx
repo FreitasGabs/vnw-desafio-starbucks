@@ -47,8 +47,8 @@ export default function Home() {
 
           <StyledSelect>
             <StyledCopinhos src={copinhoLaranja} onClick={trocaLaranja} alt="" />
-            <StyledCopinhos src={copinhoAmarelo} onClick={trocaAmarelo} alt="" />
             <StyledCopinhos src={copinhoVermelho} onClick={trocaVermelho} alt="" />
+            <StyledCopinhos src={copinhoAmarelo} onClick={trocaAmarelo} alt="" />
           </StyledSelect>
         </section>
 
