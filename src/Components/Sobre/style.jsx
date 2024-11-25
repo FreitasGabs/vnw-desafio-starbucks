@@ -16,6 +16,11 @@ export const TextoSobre = styled.div`
     width: 25vw;
 `
 
+export const StyledSubtitulo = styled.p`
+    font-family: "Inter";
+    font-weight: bold;
+`
+
 export const StyledH2 = styled.h2`
     font-weight: 400;
     font-size: 64px;
