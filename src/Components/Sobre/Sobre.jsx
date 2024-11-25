@@ -1,4 +1,4 @@
-import { StyledSobre, TextoSobre, StyledH2, StyleP, StyledButton } from "./style"
+import { StyledSobre, TextoSobre, StyledSubtitulo, StyledH2, StyleP, StyledButton } from "./style"
 import loja from "../../assets/loja_sb.svg"
 
 export default function Sobre() {
@@ -6,6 +6,7 @@ export default function Sobre() {
         <StyledSobre>
             <img src={loja} alt="Fachada de uma loja antiga da Starbucks" />
             <TextoSobre>
+                <StyledSubtitulo>PREPARAÇÃO</StyledSubtitulo>
                 <StyledH2>Niveis de Torra</StyledH2>
                 <StyleP>Qual a torra que prefere? Starbucks® Torra Clara, Torra Média ou Torra Escura? Estas são as torras que fazem parte dos níveis de torra Starbucks®</StyleP>
                 <StyledButton>SAIBA MAIS</StyledButton>
