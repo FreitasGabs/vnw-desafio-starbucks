@@ -24,3 +24,14 @@ export const StyledH2 = styled.h2`
 export const StyleP = styled.p`
     width: 27vw;
 `;
+
+export const StyledButton = styled.button`
+    background-color: #037143;
+    color: white;
+    font-family: "Inter";
+    border: none;
+    border-radius: 30px;
+    width: 10vw;
+    padding: 0.75em 1.5em;
+    margin: 2.5em;
+`
