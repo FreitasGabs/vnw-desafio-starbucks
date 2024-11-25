@@ -34,7 +34,7 @@ export const StyleP = styled.p`
 export const StyledButton = styled.button`
     background-color: #037143;
     color: white;
-    font-family: "Poppins";
+    font-family: "Inter";
     border: none;
     border-radius: 40%;
     padding: 0.5em 0.75em;
