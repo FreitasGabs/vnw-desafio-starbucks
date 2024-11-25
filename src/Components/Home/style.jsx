@@ -54,3 +54,18 @@ export const StyledCopinhos = styled.img`
             transform: rotate(20deg);
         }
 `
+
+export const StyledContainer = styled.section`
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+`
+
+export const StyledElipse = styled.img`
+    position: absolute;
+    z-index: -1;
+`
+
+export const StyledCopo = styled.img`
+    
+`
