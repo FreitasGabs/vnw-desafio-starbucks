@@ -42,7 +42,7 @@ export default function Home() {
               sanduíches.
             </StyleP>
 
-            <StyledButton>Saiba Mais</StyledButton>
+            <StyledButton>SAIBA MAIS</StyledButton>
           </section>
 
           <StyledSelect>

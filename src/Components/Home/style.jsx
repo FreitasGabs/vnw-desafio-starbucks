@@ -36,8 +36,9 @@ export const StyledButton = styled.button`
     color: white;
     font-family: "Inter";
     border: none;
-    border-radius: 40%;
-    padding: 0.5em 0.75em;
+    border-radius: 30px;
+    width: 10vw;
+    padding: 0.75em 1.5em;
     margin: 2.5em;
 `
 
